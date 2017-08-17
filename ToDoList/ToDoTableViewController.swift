@@ -48,9 +48,13 @@ class ToDoTableViewController: UITableViewController {
         } else {
             cell.textLabel?.text = toDo.name
         }
-
-        
         
         return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let addVC = segue.destination as! AddToDoViewController
+        
+        addVC.previousVC = self
     }
 }
