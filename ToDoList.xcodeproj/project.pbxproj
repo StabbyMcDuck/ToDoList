@@ -62,8 +62,8 @@
 			children = (
 				833B995F1F4347AE003A8782 /* AppDelegate.swift */,
 				833B99741F4355D1003A8782 /* ToDoTableViewController.swift */,
-				833B99761F435A87003A8782 /* ToDo.swift */,
 				83EE7BE61F46392C009F8092 /* AddToDoViewController.swift */,
+				833B99761F435A87003A8782 /* ToDo.swift */,
 				833B99631F4347AE003A8782 /* Main.storyboard */,
 				833B99691F4347AE003A8782 /* Assets.xcassets */,
 				833B996B1F4347AE003A8782 /* LaunchScreen.storyboard */,
